@@ -14,7 +14,7 @@ import re
 import sys
 
 if __name__ == '__main__':
-    n = int(input('5'))
+    n = int(input('2'))
     if n % 2 == 1:
         print("Weird")
     # elif     
