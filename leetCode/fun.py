@@ -1,11 +1,10 @@
 
+# some recursion some
+def test(num):
+    if num == -995:
+        return  None
+    print(num)
+    return test(num-1)
 
-my_array = [1, 2, 3, 4, 5, 6]
-for x in range(len(my_array)):
-    print(x)
 
-array = []
-
-array.append(list(list(list(str(sum([1, 1]))))))
-
-print(array)
+print(test(0))
