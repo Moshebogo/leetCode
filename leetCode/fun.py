@@ -1,10 +1,10 @@
 
 # some recursion some
 def test(num):
-    if num == -995:
-        return  None
+    if num == 0:
+        return
     print(num)
     return test(num-1)
 
 
-print(test(0))
+print(test(10))
